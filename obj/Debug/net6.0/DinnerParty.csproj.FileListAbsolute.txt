@@ -1,0 +1,15 @@
+C:\Users\steph\workspace\csharp-Stuff\DinnerParty\bin\Debug\net6.0\DinnerParty.exe
+C:\Users\steph\workspace\csharp-Stuff\DinnerParty\bin\Debug\net6.0\DinnerParty.deps.json
+C:\Users\steph\workspace\csharp-Stuff\DinnerParty\bin\Debug\net6.0\DinnerParty.runtimeconfig.json
+C:\Users\steph\workspace\csharp-Stuff\DinnerParty\bin\Debug\net6.0\DinnerParty.dll
+C:\Users\steph\workspace\csharp-Stuff\DinnerParty\bin\Debug\net6.0\DinnerParty.pdb
+C:\Users\steph\workspace\csharp-Stuff\DinnerParty\obj\Debug\net6.0\DinnerParty.csproj.AssemblyReference.cache
+C:\Users\steph\workspace\csharp-Stuff\DinnerParty\obj\Debug\net6.0\DinnerParty.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\steph\workspace\csharp-Stuff\DinnerParty\obj\Debug\net6.0\DinnerParty.AssemblyInfoInputs.cache
+C:\Users\steph\workspace\csharp-Stuff\DinnerParty\obj\Debug\net6.0\DinnerParty.AssemblyInfo.cs
+C:\Users\steph\workspace\csharp-Stuff\DinnerParty\obj\Debug\net6.0\DinnerParty.csproj.CoreCompileInputs.cache
+C:\Users\steph\workspace\csharp-Stuff\DinnerParty\obj\Debug\net6.0\DinnerParty.dll
+C:\Users\steph\workspace\csharp-Stuff\DinnerParty\obj\Debug\net6.0\refint\DinnerParty.dll
+C:\Users\steph\workspace\csharp-Stuff\DinnerParty\obj\Debug\net6.0\DinnerParty.pdb
+C:\Users\steph\workspace\csharp-Stuff\DinnerParty\obj\Debug\net6.0\DinnerParty.genruntimeconfig.cache
+C:\Users\steph\workspace\csharp-Stuff\DinnerParty\obj\Debug\net6.0\ref\DinnerParty.dll
