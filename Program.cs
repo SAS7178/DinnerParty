@@ -1,40 +1,42 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+
+List<Guest> allguests = GetGuests();
+List<Guest> TableOne = new List<Guest>();
+List<Guest> TableTwo = new List<Guest>();
+
+foreach (Guest guest in allguests)
+{
+    List<string?> table1Occs = TableOne.Select(g => g.occupation).ToList();
+  if(table1Occs.Contains(guest.occupation))
+  {
+    TableTwo.Add(guest);
+  } else TableOne.Add(guest);
+}
+
+foreach (Guest guest in TableOne)
+{
+    Console.WriteLine("table1");
+    Console.WriteLine(guest.name);
+}
+foreach (Guest guest in TableTwo)
+{
+    Console.WriteLine("table2");
+    Console.WriteLine(guest.name);
+}
 
 
+// Console.WriteLine($"{TableOne}");
+Console.WriteLine("---------------------------------");
 
 
-
-
-    List<Guest> guests = GetGuests();
-
-    List<Guest> TableOne = new List<Guest>();
-    List<Guest> TableTwo = new List<Guest>();
-
-
-
-
-    foreach (Guest guest in guests) {
-       foreach (Guest Table in TableOne)
-       {
-        if(guest.occupation != Table.occupation) {
-          TableOne.Add(guest);
-        } else TableTwo.Add(guest);
-       }
-    }
-
- 
-
-  Console.WriteLine(TableOne);
-  Console.WriteLine("---------------------------------");
-  Console.WriteLine(TableTwo);
-    // A function to make and return list of enemies
-
-    List<Guest> GetGuests()
-    {
-        // Make a list of Enemy objects
-        //  How would you create a collection of enemy objects in JavaScript?
-        List<Guest> guestList = new List<Guest> {
+// A function to make and return list of guests
+List<Guest> GetGuests()
+{
+    // Make a list of guest objects
+    //  How would you create a collection of guest objects in JavaScript?
+    List<Guest> guestList = new List<Guest> {
         new Guest {
        name = "Marilyn Monroe",
       occupation = "entertainer",
@@ -77,8 +79,8 @@ using System.Collections.Generic;
         }
     };
 
-        return guestList;
-    }
+    return guestList;
+}
 
 
 public class Guest
@@ -88,7 +90,7 @@ public class Guest
     public string? bio { get; set; }
 }
 
- 
+
 
 
 
